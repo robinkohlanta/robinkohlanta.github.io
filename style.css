@@ -26,8 +26,8 @@ body {
 }
 
 .css-typing p:nth-child(1) {
-  -webkit-animation: type 10s steps(20, end), blink .5s step-end infinite alternate;
-  animation: type 10s steps(20, end), blink .5s step-end infinite alternate;
+  -webkit-animation: type 15s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type 15s steps(40, end), blink .5s step-end infinite alternate;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 }
