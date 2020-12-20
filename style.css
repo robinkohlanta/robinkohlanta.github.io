@@ -6,7 +6,7 @@ body {
   justify-content: center;
 }
 
-.css-typing {
+.css-typing p {
   border-right: .15em solid orange;
   color: #fff;
   font-family: monospace;
