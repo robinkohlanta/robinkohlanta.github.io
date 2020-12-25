@@ -7,11 +7,11 @@
 <body>
   <div class="css-typing"></div>
   <script>
-  var str = '  Bonjour,<br>
-    Si vous êtes arrivé ici, c\'est que mon profil a retenu votre attention :) <br>
+  var str = `Bonjour,<br>
+    Si vous êtes arrivé ici, c'est que mon profil a retenu votre attention :) <br>
     Peut-être est-ce mon côté compétiteur, mon caractère ou même le fait que je soit un "geek" qui sait.<br>
     Bref, ici vous trouverez une nouvelle anecdote, photo ou vidéo me concernant à chaque étape du casting.<br>
-    Voici la 1ère...<br>';
+    Voici la 1ère...<br>`;
 
   var spans = '<span>' + str.split('').join('</span><span>') + '</span>';
   $(spans).hide().appendTo(".css-typing").each(function (i) {
