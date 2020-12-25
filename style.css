@@ -39,6 +39,7 @@ body {
   position: relative;
   clear: both;
   margin: 0;
+  margin-top: 1px;
   float: right; /* makes animation go left-to-right */
   width:0; /* graceful degradation: if animation doesn't work, these are invisible by default */
   background: #333; /* same as page background */
