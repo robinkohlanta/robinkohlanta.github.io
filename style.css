@@ -13,6 +13,8 @@ body {
 .container {
   position: relative;
   font-family: monospace;
+  width: 90%
+  color: white;
 }
 
 .typing {
