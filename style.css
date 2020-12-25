@@ -38,7 +38,6 @@ body {
 .hiders p {
   position: relative;
   clear: both;
-  height: 16px;
   margin: 0;
   float: right; /* makes animation go left-to-right */
   width:0; /* graceful degradation: if animation doesn't work, these are invisible by default */
