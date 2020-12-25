@@ -6,9 +6,9 @@ body {
 
 .css-typing {
   position: relative;
+  width: 90%;
   font-family: monospace;
-  font-size: 14px;
-  width: fit-content;
+  font-size: 1.2em;
   margin: auto;
   text-align: center;
   color: white;
