@@ -6,103 +6,51 @@ body {
   justify-content: center;
 }
 
-.typewriter p {
-  width: fit-content;
-  color: #fff;
-  font-family: monospace;
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-}
-
-.typewriter p:nth-child(1) {
-  animation:
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-  -webkit-animation:
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-.typewriter p:nth-child(2) {
-  -webkit-animation-delay: 3.5s;
-  animation-delay: 3.5s;
-  animation:
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-  -webkit-animation:
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-}
-
-/* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+    from { width: 100% }
+    to { width: 0 }
+
 }
 
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
-
-/*
-.css-typing p {
-  border-right: .15em solid orange;
-  color: #fff;
+.container {
+  position: relative;
   font-family: monospace;
-  font-size: 14px;
-  white-space: nowrap;
-  overflow: hidden;
-  width: 90%;
 }
 
-.css-typing p {
-  border-right: .15em solid orange;
-  color: #fff;
-  font-family: monospace;
-  font-size: 14px;
-  white-space: nowrap;
-  overflow: hidden;
+.typing {
+  position: absolute;
+  top: 0;
+  margin: 0;
+  z-index: -1;
 }
 
-.css-typing p:nth-child(1) {
-  -webkit-animation: type 15s steps(40, end), blink .5s step-end infinite alternate;
-  animation: type 15s steps(40, end), blink .5s step-end infinite alternate;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+.hiders {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }
 
-.css-typing p:nth-child(2) {
-  -webkit-animation: type 5s steps(20, end), blink .5s step-end infinite alternate;
-  animation: type 5s steps(20, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 5s;
-  animation-delay: 5s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
+.hiders p {
+  position: relative;
+  clear: both;
+  margin: 0;
+  float: right; /* makes animation go left-to-right */
+  width:0; /* graceful degradation: if animation doesn't work, these are invisible by default */
+  background: #333; /* same as page background */
+  animation: typing 2s steps(30, end);
+  animation-fill-mode: both;  /* load first keyframe on page load, leave on last frame at end */
 }
 
-@-webkit-keyframes type {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-    opacity: 1;
-  }
+.hiders p:nth-child(2) {
+  animation-delay: 2s;
 }
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
+.hiders p:nth-child(3) {
+  animation-delay: 4s;
 }
-@-webkit-keyframes blink {
-  50% {
-    border-color: tranparent;
-  }
-}*/
+.hiders p:nth-child(4) {
+  animation-delay: 6s;
+}
+.hiders p:nth-child(5) {
+  animation-delay: 8s;
+}
