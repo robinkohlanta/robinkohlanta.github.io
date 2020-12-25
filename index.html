@@ -8,12 +8,17 @@
   <div class="css-typing"></div>
   <script>
   var line1 = `Bonjour,`
-  var str = `Si vous êtes arrivé ici, c'est que mon profil a retenu votre attention :) <br>
-    Peut-être est-ce mon côté compétiteur, mon caractère ou même le fait que je soit un "geek" qui sait.<br>
-    Bref, ici vous trouverez une nouvelle anecdote, photo ou vidéo me concernant à chaque étape du casting.<br>
-    Voici la 1ère...<br>`;
+  var line2 = `Si vous êtes arrivé ici, c'est que mon profil a retenu votre attention :)`;
+  var line3 = `Peut-être est-ce mon côté compétiteur, mon caractère ou même le fait que je soit un "geek" qui sait.`;
+  var line4 = `Bref, ici vous trouverez une nouvelle anecdote, photo ou vidéo me concernant à chaque étape du casting.`;
+  var line5 = `Voici la 1ère...`;
 
-  var spans = '<span>' + line1.split('').join('</span><span>') + '<br>' + str.split('').join('</span><span>') + '</span>';
+
+  var spans = '<span>' + line1.split('').join('</span><span>')
+  + '<br>' + line2.split('').join('</span><span>')
+  + '<br>' + line3.split('').join('</span><span>')
+  + '<br>' + line4.split('').join('</span><span>')
+  + '<br>' + line5.split('').join('</span><span>') + '</span>';
   $(spans).hide().appendTo(".css-typing").each(function (i) {
       $(this).delay(100 * i).css({
           display: 'inline',
