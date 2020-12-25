@@ -40,7 +40,7 @@ body {
   float: right; /* makes animation go left-to-right */
   width:0; /* graceful degradation: if animation doesn't work, these are invisible by default */
   background: #333; /* same as page background */
-  animation: typing 2s steps(50, end);
+  animation: typing 3s steps(50, end);
   animation-fill-mode: both;  /* load first keyframe on page load, leave on last frame at end */
 }
 
