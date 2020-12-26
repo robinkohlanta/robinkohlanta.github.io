@@ -5,12 +5,13 @@ body {
 
 .css-typing {
   width: 90%;
-  font-family: monospace;
-  font-size: 1.2em;
-  margin: auto;
-  text-align: left;
-  color: white;
-  padding-top: 50px;
+      font-family: monospace;
+      font-size: 1.2em;
+      margin: 7vh auto auto auto;
+      text-align: left;
+      color: white;
+      padding-top: 50px;
+      height: 2000px;
 }
 
 .logo {
@@ -30,7 +31,7 @@ body {
   position: fixed;
       top: 0;
       left: 0;
-      height: 7%;
+      height: 7vh;
       width: 100vw;
       background-color: #fff;
       font-size: 12px;
