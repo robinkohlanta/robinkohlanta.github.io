@@ -1,7 +1,6 @@
 /* GLOBAL STYLES */
 body {
   background: #333;
-  padding-top: 5em;
 }
 
 .css-typing {
@@ -18,5 +17,23 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 30%;
+}
+
+@media (max-width: 979px)
+#top-bar-wrap {
+    padding-top: 25px;
+}
+
+#top-bar-wrap {
+    position: sticky;
+    top: 0;
+    transition: 1s;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+    font-size: 12px;
+    border-bottom: 1px solid #f1f1f1;
+    z-index: 101;
 }
