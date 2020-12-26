@@ -28,7 +28,7 @@ body {
 }
 
 #top-bar-wrap {
-  position: sticky;
+  position: fixed;
       top: 0;
       transition: 1s;
       height: : 100px;
