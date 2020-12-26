@@ -41,9 +41,6 @@ body {
 }
 
 @media (max-width: 979px) {
-#top-bar-wrap {
-      padding-top: 25px;
-  }
 
 .logo-borders {
   position: fixed;
