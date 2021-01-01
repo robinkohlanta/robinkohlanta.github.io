@@ -15,6 +15,7 @@ body {
 
 .message-fin {
   width: 90%;
+  margin: auto;
   font-family: monospace;
   font-size: 1.2em;
   text-align: center;
@@ -83,8 +84,11 @@ video {
     padding-top: 70px !important;
   }
 
+  #videoButton {
+      margin-bottom: 500px !important;
+  }
   video {
     left: 20% !important;
     width: 60% !important;
-}
+  }
 }
