@@ -3,7 +3,7 @@ body {
   background: #333;
 }
 
-.css-typing {
+.css-typing, .message-fin {
   width: 90%;
       font-family: monospace;
       font-size: 1.2em;
