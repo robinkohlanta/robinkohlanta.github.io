@@ -69,7 +69,7 @@ video {
   margin-bottom: 100px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 769px) {
   .logo-borders {
       width: 20% !important;
       left: 40% !important;
