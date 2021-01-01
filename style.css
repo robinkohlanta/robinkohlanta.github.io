@@ -1,17 +1,12 @@
 @media screen and (min-width: 900px) {
   .logo-borders {
-      position: fixed;
       width: 20%;
-      top: 7vh;
       left: 40%;
   }
 
   .logo {
       width: 10%;
-      position: absolute;
-      top: 15px;
       left: 45%;
-      z-index: 102;
   }
 }
 
@@ -27,7 +22,7 @@ body {
   margin: 7vh auto auto auto;
   text-align: left;
   color: white;
-  padding-top: 90px;
+  padding-top: 50px;
 }
 
 .message-fin {
@@ -78,9 +73,9 @@ video {
   left: 25%;
   position: relative;
   font-family: monospace;
-  font-size: 3em;
+  font-size: 1.2em;
   border: 1px white;
   border-radius: 30px;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
