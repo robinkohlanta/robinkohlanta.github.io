@@ -57,5 +57,12 @@ video {
 }
 
 #videoButton {
-
+  width: 50%;
+      left: 25%;
+      position: relative;
+      font-family: monospace;
+      font-size: 1.2em;
+      margin-top: 20px;
+      border: 1px white;
+      border-radius: 25%;
 }
