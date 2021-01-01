@@ -10,7 +10,7 @@ body {
       margin: 7vh auto auto auto;
       text-align: left;
       color: white;
-      padding-top: 50px;
+      padding-top: 90px;
 }
 
 .logo {
@@ -35,17 +35,7 @@ body {
 
 .logo-borders {
     position: fixed;
-    width: 200px;
-    top: 72px;
-    left: calc(50% - 100px);
-}
-
-@media (max-width: 979px) {
-
-.logo-borders {
-  position: fixed;
-      width: 180px;
-      top: calc(7vh - 15px);
-      left: calc(50% - 90px);
-  }
+    width: 44%;
+    top: calc(7vh - 38px);
+    left: 28%;
 }
