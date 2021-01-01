@@ -10,7 +10,7 @@ body {
   margin: 7vh auto auto auto;
   text-align: left;
   color: white;
-  padding-top: 90px;
+  padding-top: 50px;
 }
 
 .message-fin {
@@ -61,7 +61,7 @@ video {
   left: 25%;
   position: relative;
   font-family: monospace;
-  font-size: 1.2em;
+  font-size: 3em;
   border: 1px white;
   border-radius: 30px;
   margin-top: 100px;
