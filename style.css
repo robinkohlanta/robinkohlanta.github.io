@@ -67,3 +67,20 @@ video {
   margin-top: 200px;
   margin-bottom: 200px;
 }
+
+@media screen and (min-width: 900px) {
+  .logo-borders {
+      position: fixed;
+      width: 20%;
+      top: 7vh;
+      left: 40%;
+  }
+
+  .logo {
+      width: 10%;
+      position: absolute;
+      top: 15px;
+      left: 45%;
+      z-index: 102;
+  }
+}
