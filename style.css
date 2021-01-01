@@ -3,14 +3,23 @@ body {
   background: #333;
 }
 
-.css-typing, .message-fin {
+.css-typing {
   width: 90%;
-      font-family: monospace;
-      font-size: 1.2em;
-      margin: 7vh auto auto auto;
-      text-align: left;
-      color: white;
-      padding-top: 50px;
+  font-family: monospace;
+  font-size: 1.2em;
+  margin: 7vh auto auto auto;
+  text-align: left;
+  color: white;
+  padding-top: 50px;
+}
+
+.message-fin {
+  width: 90%;
+  font-family: monospace;
+  font-size: 1.2em;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
 }
 
 .logo {

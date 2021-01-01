@@ -10,7 +10,9 @@
     <img src="images/logo_borders.png" class="logo-borders">
   </div>
   <div class="css-typing"></div>
-  <video controls>
+  <input type="image" src="Images/img_menu/play_btn.png" width="60" height="60" id="playButton"/>
+  <button id="videoButton" type="button">Voir la vidéo</button>
+  <video id="video" controls style="display: none;">
     <source src="/videos/test.mp4" type="video/mp4">
     Mince, votre navigateur ne prend pas à charge cette vidéo :(
   </video>
@@ -37,6 +39,13 @@
           opacity: 1
       }, 100);
   });
+
+  $(document).ready(function(){
+            $('#videoButton').click( function () {
+                $('#videoButton').hide();
+                $('#video').show();
+            });
+        });
   </script>
 </body>
 </html>
