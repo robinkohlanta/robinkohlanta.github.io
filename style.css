@@ -35,7 +35,7 @@ body {
 
 .logo-borders {
     position: fixed;
-    width: 44%;
-    top: calc(7vh - 38px);
-    left: 28%;
+    width: 48%;
+    top: 7vh;
+    left: 26%;
 }
