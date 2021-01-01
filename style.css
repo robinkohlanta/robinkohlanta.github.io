@@ -70,12 +70,12 @@ video {
 
 @media screen and (min-width: 900px) {
   .logo-borders {
-      width: 20%;
-      left: 40%;
+      width: 20% !important;
+      left: 40% !important;
   }
 
   .logo {
-      width: 10%;
-      left: 45%;
+      width: 10% !important;
+      left: 45% !important;
   }
 }
