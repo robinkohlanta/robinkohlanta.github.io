@@ -64,6 +64,7 @@ video {
   font-family: monospace;
   font-size: 1.2em;
   border: 1px white;
+  background-color: white;
   border-radius: 30px;
   margin-top: 100px;
   margin-bottom: 100px;
